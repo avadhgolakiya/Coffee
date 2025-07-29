@@ -1,0 +1,528 @@
+@media only screen and (max-width: 768px) {
+    .ul-nav {
+      flex-direction: column;
+      gap: 20px;
+      background-color: var(--green);
+      padding: 20px;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px);
+      border-radius: 30px;
+      transition: all 0.3s ease-in-out;
+    }
+    .nav-image{
+        display: none;
+        transition: 0.3s all ease;
+    }
+    .menu-button{
+      display: block;
+    }
+  
+    .ul-nav.mobile-show {
+      display: flex;
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  
+    .menu-padding {
+      display: block;
+      background-color: var(--cream);
+      padding: 9px;
+      width: 40px;
+        height: 40px;
+      place-content: center;
+      place-items: center;
+      border-radius: 50%;
+
+    }
+  
+    .menu-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .menu-icon {
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+  
+    .nav-res-icon {
+      display: flex;
+      margin-right: auto;
+    }
+  
+    .middle-nav {
+      justify-content: space-between;
+      width: 80%;
+      padding: 10px 20px;
+    }
+    .header{
+      padding-top: 4rem;
+    }
+  }
+  
+  @media only screen and (max-width:1325px){
+    .middle-image{
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width:1163px){
+    .i-1,.i-3{
+      width: 280px;
+    }.i-2{
+      width: 380px;
+    }
+  }
+  @media only screen and (max-width:1050px){
+    .i-1,.i-3{
+      width: 230px;
+    }.i-2{
+      width: 350px;
+    }
+  }
+  @media only screen and (max-width:900px){
+    .i-1,.i-3{
+      width: 210px;
+    }.i-2{
+      width: 300px;
+    }
+  }
+  @media only screen and (max-width:800px){
+    .i-1,.i-3{
+      width: 180px;
+    }.i-2{
+      width: 240px;
+    }
+  }
+  @media only screen and (max-width:667px){
+    .i-1,.i-3{
+      width: 150px;
+    }.i-2{
+      width: 200px;
+    }
+  }
+  @media only screen and (max-width:600px){
+    .i-1,.i-3{
+     display: none;
+    }.i-2{
+      width: 300px;
+    }
+  }
+  @media only screen and (max-width:500px){
+    .life-begins{
+      font-size: 12vw;
+    }
+    .btn-group{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .btn-1,.btn-2{
+     width: 80%;
+     margin-top: 1rem;
+    }
+    .i-2{
+      margin-top: 1rem;
+    }
+  }
+  @media only screen and (max-width:370px){
+    .life-begins{
+      font-size: 14vw;
+    }
+  }
+  @media only screen and (max-width:1200px){
+    .sec-2-card{
+      width: 90vw;
+    }
+  }
+  @media only screen and (max-width:1050px){
+    .i-1-sec-2{
+      width: 230px;
+      height: 230px;
+    }
+  }
+  @media only screen and (max-width:800px){
+    .i-1-sec-2{
+      width: 190px;
+      height: 190px;
+    }
+  }
+  @media only screen and (max-width:670px){
+    .sec-2-card{
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .sec2Card{
+      width: 100%;
+      display: flex;
+      place-items: center;
+      place-content: center;
+    }
+    .second-part-text{
+      height: auto;
+      margin-bottom: 2rem;
+      padding-top: 2rem;
+    }
+    .second-part{
+      height: auto;
+    }
+    .sec2Card{
+      width: auto !important;
+      margin-bottom: 1rem;
+    }
+    .sec-2-card{
+      place-items: baseline;
+    }
+    .sec-2-title{
+      margin-left: 1rem;
+    }  
+  }
+  @media only screen and (max-width:500px){
+    .you-love{
+      font-size: 40px;
+    }
+    .btn-1, .btn-2{
+      width: 100% !important;
+    }
+    .what-people-love-text{
+      font-size: 50px;
+    }
+  }
+  @media only screen and (max-width:450px){
+    .i-1-sec-2{
+      width: 140px;
+      height: 140px;
+    }
+    .sec-2-title{
+      font-size: 25px;
+    }
+  }
+  @media only screen and (max-width:1300px){
+    .image-sec-3,.cardsec4{
+      width: 260px;
+    }
+    .third-sec-cards-section{
+      justify-content: space-between;
+    }
+  }
+  @media only screen and (max-width:1200px){
+    .image-sec-3,.cardsec4{
+      width: 220px;
+    }
+  }
+  @media only screen and (max-width:1100px){
+    .third-sec-cards-section{
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .third-sec-text{
+      margin-top: 3rem;
+    }
+    .third-sec{
+      height: auto;
+    }
+    .image-sec-3, .cardsec4{
+      width: 48%;
+    }
+    .cardsec4{
+      margin-bottom: 2rem;
+    }
+    .image-sec-3{
+      width: 100%;
+      height: auto;
+    }
+    .card-3-deatils>span{
+      font-size: 29px;
+    }
+  }
+@media only screen and (max-width:670px){
+  .cardsec4{
+    width: 80%;
+  }
+  .image-sec-3{
+    height: 400px;
+  }
+  .third-sec{
+    height: auto;
+  }
+  .local-text{
+    font-size: 33px;
+  }
+  .third-sec-text{
+    font-size: 76px;
+  }
+  .third-sec-cards-section{
+    justify-content: center;
+  }
+}
+@media only screen and (max-width:575px){
+  .third-sec-text{
+    font-size: 35px;
+  }
+  .local-text{
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width:470px){
+  .cardsec4{
+    width: 90%;
+  }
+  .image-sec-3{
+    height: 300px;
+  }
+}
+@media only screen and (max-width:1100px){
+  .main-div-sec-4{
+    grid-template-columns:1fr;
+  }
+  .card4sec4{
+    flex-direction: row;
+    height: 240px;
+  }
+  .image-sec-4-cards{
+    height: 240px;
+  }
+  .main-div-sec-4 .card4sec4:nth-child(2){
+    flex-direction: row-reverse;
+ }
+}
+@media only screen and (max-width:768px){
+  .image-sec-4{
+    width: 200px;
+    height: 260px;
+  }
+  .card4sec4{
+    height: 260px;
+  }
+}
+@media only screen and (max-width:679px){
+  .card4sec4,.image-sec-4{
+    height: 280px;
+  }
+}
+@media only screen and (max-width:650px){
+  .card4sec4{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .main-div-sec-4 .card4sec4:nth-child(2){
+    flex-direction: column-reverse;
+ }
+ .image-sec-4-cards{
+  width: 100%;
+ }
+ .testimonial-block{
+  margin-top: 3rem;
+ }
+ .card4sec4, .image-sec-4{
+  width: 100%;  
+ }
+ 
+}
+@media only screen and (max-width:370px){
+  .what-people-love-text{
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width:1225px){
+  .section-5{
+    padding: 160px 31px;
+  }
+}
+@media only screen and (max-width:1152px){
+  .helpDeatils{
+    padding: 18px 38px;
+  }
+}
+@media only screen and (max-width:1100px){
+  .location-info{
+    flex-wrap: wrap;
+    grid-template-columns: 1fr;
+  }
+  .all-location-boxes{
+    justify-content: space-evenly;
+  }
+  .helpDeatils{
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  .need-Help-Compo{
+    margin-top: 2rem;
+  }
+  .section-5{
+    padding:60px 31px;
+  }
+}
+@media only screen and (max-width:600px){
+  .helpDeatils{
+    width: 100%;
+  }
+  .need-Help-Compo{
+    height: auto;
+  }
+  .address-compo{
+    width: 98%;
+    height: auto;
+  }
+  .section-5{
+    padding:60px 31px;
+  }
+}
+@media only screen and (max-width:500px){
+  .section-5{
+    padding: 60px 17px;
+  }
+}
+@media only screen and (max-width:1200px){
+  .six-section{
+      padding: 80px 40px;
+  }
+}
+@media only screen and (max-width:1100px){
+  .card-1-sec-six{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .image-sec-6{
+    height: 440px;
+  }
+  .Six-section-cars{
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .six-section{
+    padding: 80px 100px;
+  }
+  .sec-6-time{
+    font-size: 22px;
+  }
+  .sec-6-description{
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width:768px){
+  .six-section{
+    padding: 40px 60px;
+  }
+  .image-sec-6{
+    height: 340px;
+  }
+  .sec-6-description{
+    font-size: 22px;
+  }
+  .sec-6-time{
+    font-size: 18px;
+  }
+  .Our-Coffe-Store{
+    font-size: 44px;
+  }
+}
+@media only screen and (max-width:500px){
+  .six-section{
+    padding: 20px 20px;
+  }
+  .Six-section-cars{
+    margin-bottom: 4rem;
+  }
+  .Our-Coffe-Store{
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width:338px){
+  .Our-Coffe-Store{
+    font-size:32px;
+  }
+}
+@media only screen and (max-width:1100px){
+  .footer-1{
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width:600px){
+  .main-footer-part{
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width:1100px){
+  .cards-menu-section-inside-coffee-cards{
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    place-content: center;
+  }
+  .coffe-section-menu{
+    padding: 70px;
+  }
+  .Coffee-text-menu{
+    font-size: 6vw;
+  }
+}
+@media only screen and (max-width:740px){
+  .coffe-section-menu{
+    padding: 70px 40px;
+  }
+}
+@media only screen and (max-width:679px){
+  .coffe-section-menu{
+    padding: 70px 30px;
+  }
+}
+@media only screen and (max-width:768px){
+  .about-brehaus-text{
+    font-size: 30px;
+  }
+  .about-page-body{
+    padding: 50px 30px;
+  }
+}
+@media only screen and (max-width:500px){
+  .about-brehaus-text{
+    font-size: 20px;
+  }
+  .about-page-body{
+    padding: 50px 15px;
+  }
+}
+@media only screen and (max-width:1100px){
+  .main-sec-at-about-us{
+    grid-template-columns: 1fr;
+  }
+  .about-page-card-1{
+    height: 300px;
+  }
+  .about-page-body{
+    padding: 70px;
+  }
+}
+@media only screen and (max-width:890px){
+  .block-1{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .block-sec-at-ab-page{
+    flex-wrap: wrap;
+  }
+  .about-page-body{
+    padding: 50px;
+  }
+}
+@media only screen and (max-width:500px){
+  .the-heart-text-ab{
+    font-size: 44px;
+  }
+}
+@media only screen and (max-width:355px){
+  .the-heart-text-ab{
+    font-size: 34px;
+  }
+}
