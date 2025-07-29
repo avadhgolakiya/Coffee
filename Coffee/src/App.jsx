@@ -5,6 +5,8 @@ import LocationPage from './HomePage/LocationPage';
 import AboutPage from './HomePage/Aboutpage';
 import NewsPage from './HomePage/NewsPage';
 import './App.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function App() {
   return (
