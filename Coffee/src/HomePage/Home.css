@@ -162,11 +162,12 @@
     height: 60%;
     place-content: center;
     place-items: center;
+    overflow-y: hidden;
  }
  .middle-image{
     width: 80%;
     height: 100%;
-
+    overflow-y: hidden;
     place-content: end;
     text-align: center;
  }
