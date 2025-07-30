@@ -4,7 +4,9 @@
     --white:#fcf3d9;
  }
  
-
+*{
+   overflow-x: hidden;
+}
  .nav-text:hover,.nav-image:hover{
    background-color: var(--cream);
    color: var(--green);
