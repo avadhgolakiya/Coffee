@@ -4,9 +4,7 @@
     --white:#fcf3d9;
  }
  
-*{
-   overflow-x: hidden;
-}
+
  .nav-text:hover,.nav-image:hover{
    background-color: var(--cream);
    color: var(--green);
@@ -162,12 +160,10 @@
     height: 60%;
     place-content: center;
     place-items: center;
-    overflow-y: hidden;
  }
  .middle-image{
     width: 80%;
     height: 100%;
-    overflow-y: hidden;
     place-content: end;
     text-align: center;
  }
